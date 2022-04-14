@@ -1,0 +1,9 @@
+--- ./CMakeLists.txt.orig	2022-04-14 12:13:18.804973735 +0530
++++ ./CMakeLists.txt	2022-04-14 12:13:28.794973732 +0530
+@@ -1,5 +1,5 @@
+ cmake_minimum_required(VERSION 3.8)
+-project(ccls LANGUAGES CXX)
++project(ccls LANGUAGES C CXX)
+ 
+ option(USE_SYSTEM_RAPIDJSON "Use system RapidJSON instead of the git submodule if exists" ON)
+ 
