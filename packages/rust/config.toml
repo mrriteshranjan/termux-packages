@@ -13,7 +13,6 @@ cargo = "@CARGO@"
 python = "python2.7"
 extended = true
 sanitizers = false
-profiler = true
 
 #tools = ["cargo", "analysis", "clippy-driver" ]
 tools = ["cargo", "rls", "clippy", "rustfmt", "analysis", "src"]
